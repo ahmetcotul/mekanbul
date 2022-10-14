@@ -5,10 +5,10 @@ html
         title= title
         link(rel='stylesheet', href='/bootstrap/bootstrap/css/bootstrap.css')
     body
-        .navbar-default.navbar-fixed-top
+        .navbar-default.navbar.navbar-fixed-top
             .container
                 .navbar-header
-                    a.navbar-brand('/') MekanBul
+                    a.navbar-brand(href='/') MekanBul
                     button.navbar-toggle(type='button', data-toggle='collapse',data-target='#navbar-main')
                         span.icon-bar
                         span.icon-bar
@@ -16,13 +16,12 @@ html
                 #navbar-main.navbar-collapse.collapse
                     ul.nav.navbar-nav
                         li
-                            a(href='/hakkinda') Hakkında
-        .container
-            block content
-            footer
-                .col-12
-                    small &copy; Ahmet Çotul 2022
+                            a(href='/hakkinda') Hakkında               
+    .container
+        block content
+        footer       
+            small &copy; Ahmet Çotul 2022
                 
-        script(src='/javascript/jquery/jquery-3.6.1.min.js')
-        script(src='/bootstrap/js/bootstrap.min.js')
+    script(src='/javascript/jquery/jquery-3.6.1.min.js')
+    script(src='/bootstrap/bootstrap/js/bootstrap.min.js')
 

@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+
 var ctrlMekanlar= require('../controllers/mekanlar');
 var ctrlDigerleri= require('../controllers/digerleri');
 
