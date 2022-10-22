@@ -1,5 +1,6 @@
 const hakkinda= function(req,res){
-    res.render('hakkinda',{'title':'Hakkinda'});
+    res.render('hakkinda',{
+    'baslik':'Hakkında'});
 }
 
 module.exports ={
