@@ -6,7 +6,7 @@ const anaSayfa=function(req, res) {
         "baslik": 'Anasayfa',
         "sayfaBaslik":{
             "siteAd":"MekanBul",
-            "slogan":"Civardaki Mekanları Keşfetin!"
+            "slogan":"Civardaki Mekanları Keşfet!"
          },
         "mekanlar":[
             {
