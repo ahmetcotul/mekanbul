@@ -20,4 +20,4 @@
 
      
      
-NOT : Visual Studio Code kullanamadığım için mecburen postman üzerinden kontrol etmek zorunda kaldım.
+NOT : Visual Studio Code kullanamadığım için mecburen alternatifi olan postman üzerinden kontrol etmek zorunda kaldım.
