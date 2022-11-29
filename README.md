@@ -1,3 +1,24 @@
+# Mekanbul ThunderClient ve Rest-Api Testleri
+A. Thunder Client Kullanılarak Collection üzerinden Test Edilmesi
+
+<img src="/pictures/thunder_client_cikti.png">
+
+
+B. Mocha, Chai ve Supertest kullanımı ile Api Testi
+
+<img src="/pictures/test_console_output.png">
+
+
+
+Açıklama : bu test test.js dosyası üzerinden gerçekleşerek yapılmıştır. ```npm run test```kullanılarak Test edilmiştir. 
+Böylece konsol üzerinden test gerçekleştirmiş oluruz.
+
+
+
+
+
+
+
 
 # MekanBul REST API Adresleri
 
@@ -20,4 +41,4 @@
 
      
      
-NOT : Visual Studio Code kullanamadığım için mecburen alternatifi olan postman üzerinden kontrol etmek zorunda kaldım.
+NOT : Visual Studio Code kullanamadığım için mecburen alternatifi olan postman üzerinden kontrol etmek zorunda kaldım.->(EDIT:YALNIZCA SON ÜÇ MADDE İÇİN GEÇERLİDİR.)
