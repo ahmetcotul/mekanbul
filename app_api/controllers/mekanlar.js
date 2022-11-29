@@ -5,7 +5,7 @@ const cevapOlustur=function(res,status,content){
 	res.status(status).json(content);
 }
 var cevrimler = (function(){
-	var dunyaYaricap = 6371; //km
+	var dunyaYariCap = 6371; //km
 	var radyan2Kilometre = function(radyan){
 		return parseFloat(radyan*dunyaYariCap);
 	};
